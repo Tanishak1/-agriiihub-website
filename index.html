@@ -156,6 +156,51 @@ h1,h2,h3{overflow-wrap:normal;word-break:normal;text-wrap:balance}
  .intro h2,.atlas-heading h2,.connection-intro h2,.essay h2,.join h2,.founder-copy h2{letter-spacing:-.018em!important;line-height:1.22!important}
  .v8-join .mission-card{padding:23px}
 }
+/* V8.3 | full-site editorial rhythm and typography audit */
+:root{--display-track:-.018em;--display-leading:1.16;--reading-leading:1.8}
+body{font-kerning:normal;text-rendering:optimizeLegibility}
+.hero h1{letter-spacing:-.026em!important;line-height:1.115!important;max-width:960px;margin:30px 0 26px}
+.hero-tagline{letter-spacing:0!important;line-height:1.5!important;margin:0 0 13px!important}
+.hero .hero-desc{line-height:1.8!important;letter-spacing:.005em;max-width:600px}
+.hero .cta-row{margin-top:30px;gap:14px}
+.intro h2,.atlas-heading h2,.connection-intro h2,.essay h2,.founder-copy h2,.v8-join h2{letter-spacing:var(--display-track)!important;line-height:var(--display-leading)!important;word-spacing:.035em;text-wrap:balance}
+.intro h2,.connection-intro h2{margin-top:25px;margin-bottom:24px}
+.atlas-heading h2{margin-bottom:20px}
+.essay h2{margin-top:24px;margin-bottom:28px}
+.founder-copy h2{margin:24px 0 26px}
+.v8-join h2{margin:24px auto 22px}
+.scene-content h3{letter-spacing:-.022em!important;line-height:1.18!important;margin:18px 0 20px}
+.connection-detail h3,.principles-title h3,.founder-focus h3{letter-spacing:-.018em!important;line-height:1.27!important}
+.mission-card h3,.explore-utility h3{letter-spacing:-.012em!important;line-height:1.35!important}
+.intro-summary p,.intro-lead,.atlas-heading p,.connection-intro p,.connection-detail p,.essay p,.founder-copy>p,.founder-focus p,.v8-join .join-intro,.v8-join .mission-card p,.scene-content p{line-height:var(--reading-leading)!important;letter-spacing:.008em}
+.intro-summary p+p{margin-top:16px}
+.essay .essay-inner{column-gap:clamp(38px,5vw,88px)}
+.essay .essay-point{padding:27px 0}
+.essay-point strong{letter-spacing:-.014em!important;line-height:1.35!important}
+.essay-point small{line-height:1.75;margin-top:9px}
+.founder-story-inner{gap:clamp(32px,5vw,88px)}
+.founder-focus .focus-line{padding:23px 0}
+.founder-focus .focus-line p{margin-top:10px}
+.v8-join .mission-grid{gap:22px;margin-top:42px;margin-bottom:38px}
+.v8-join .mission-card{padding:clamp(25px,2.8vw,36px)}
+.v8-join .mission-card h3{margin:20px 0 14px}
+.v8-join .join-actions{gap:20px}
+.section-label{line-height:1.6;letter-spacing:.13em}
+@media(max-width:800px){
+ .hero h1{letter-spacing:-.018em!important;line-height:1.13!important;margin:25px 0 20px}
+ .intro h2,.atlas-heading h2,.connection-intro h2,.essay h2,.founder-copy h2,.v8-join h2{letter-spacing:-.014em!important;line-height:1.2!important;word-spacing:.015em}
+ .essay .essay-inner,.founder-story-inner{gap:32px}
+ .v8-join .mission-grid{gap:16px;margin:32px auto}
+ .v8-join .mission-card{padding:25px}
+}
+@media(max-width:550px){
+ .hero h1{letter-spacing:-.012em!important;line-height:1.15!important}
+ .intro h2,.atlas-heading h2,.connection-intro h2,.essay h2,.founder-copy h2,.v8-join h2{letter-spacing:-.01em!important;line-height:1.23!important}
+ .hero .cta-row{gap:11px}
+ .essay .essay-point{padding:22px 0}
+ .v8-join .mission-card{padding:23px}
+}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 </style>
 <meta property="og:type" content="website"><meta property="og:title" content="Agriiihub — Growing a Smarter, Sustainable Tomorrow"><meta property="og:description" content="A farmer-first vision connecting agriculture, ecosystems and responsible innovation."><meta property="og:url" content="https://tanishak1.github.io/-agriiihub-website/"><meta name="twitter:card" content="summary"><link rel="icon" type="image/svg+xml" href="./favicon.svg"></head>
 <body><div class="scroll-progress" id="scroll-progress" aria-hidden="true"></div>
